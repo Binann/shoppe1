@@ -903,3 +903,120 @@
     width: 26rem;
     padding: 15px 46px;
 }
+
+/* css product */
+.home-product {
+    margin-bottom: 3rem;
+}
+
+.home-product-item {
+    background-color: var(--while-color);
+    margin-top: 10px;
+    position: relative;
+}
+
+.home-product-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-product-item__name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6rem;
+    overflow: hidden;
+    margin: 10px;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+}
+
+.home-product-item__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    padding-bottom: 10px;
+}
+
+.home-product-item__price {
+    font-size: 1.6rem;
+    color: rgb(238, 77, 45);
+}
+
+.home-product-item__sold {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.home-product-item__favourite {
+    position: absolute;
+    top: 10px;
+    left: -4px;
+    color: var(--while-color);
+    background-color: var(--main--color);
+    padding: 0 5px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.home-product-item__favourite::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    border-top: 3px solid #d0011b;
+
+    border-left: 3px solid transparent;
+}
+
+
+.home-product-item__sale-off {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 4rem;
+    height: 3.6rem;
+    background-color: rgba(249, 204, 42, 1);
+}
+
+.home-product-item__sale-off::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    border-width: 0 20px 6px;
+    border-style: solid;
+    border-color: red rgba(249, 204, 42, 1) transparent rgba(249, 204, 42, 1);
+}
+
+.home-product-item__sele-of-precent {
+    color: var(--main--color);
+    font-size: 1.1rem;
+}
+
+.home-product-item__sele-of-label {
+    color: var(--while-color);
+    font-size: 1.2rem;
+}
+
+.button_more {
+    height: 36px;
+    width: 390px;
+    background-color: var(--while-color);
+    text-align: center;
+    margin: auto;
+    line-height: 36px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+
+}
+
+.button_more:hover {
+    background-color: rgb(227, 226, 226);
+}
